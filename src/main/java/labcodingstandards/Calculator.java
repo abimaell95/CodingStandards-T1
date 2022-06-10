@@ -67,7 +67,7 @@ public class Calculator {
 	 * @return String
 	 */
 
-	private String operation(double first,double second,char operator) {
+	private String operation(double first, double second, char operator){
 		double result = 0;
 		switch(operator)
         {
