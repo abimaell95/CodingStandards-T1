@@ -54,7 +54,7 @@ public class Calculator {
 		reader.close();
 	}
 
-	private String Operation(double first,double second,char operator) {
+	private String operation(double first,double second,char operator) {
 		double result = 0;
 		switch(operator)
         {
