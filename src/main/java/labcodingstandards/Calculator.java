@@ -13,6 +13,10 @@ import java.util.Scanner;
 
 public class Calculator {	
 	//CHECKSTYLE:OFF
+	/**
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 	//CHECKSTYLE:ON
 
@@ -55,6 +59,13 @@ public class Calculator {
         System.out.printf(result);
 		reader.close();
 	}
+	/**
+	 * 
+	 * @param first
+	 * @param second
+	 * @param operator
+	 * @return String
+	 */
 
 	private String operation(double first,double second,char operator) {
 		double result = 0;
