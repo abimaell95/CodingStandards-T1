@@ -7,7 +7,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>LabCodingStandards</name>
 	<description>Lab Coding Standards, Sofware Engineering II</description>
-	
+
 	<build>
 		<plugins>
 			<plugin>
@@ -28,10 +28,11 @@
 	 		<plugin>
 	 			<artifactId>maven-checkstyle-plugin</artifactId>
 				<configuration>
-	 				<configLocation>DomenicaBarreiro_checks.xml</configLocation>
+	 				<configLocation>T1_checks.xml</configLocation>
 				</configuration>
 			</plugin>
 	 	</plugins>
 	</reporting>
 		
 </project>
+
